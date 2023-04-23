@@ -1,0 +1,6 @@
+#stt-wrapper {
+    position: fixed;
+    z-index: 100;
+    right: 10px;
+    bottom: 5px;
+  }

@@ -4,3 +4,7 @@ $(document).ready(function() {
       return false;
     });
   });
+
+  function purchase() {
+    alert("Thank you for your purchase!");
+  }

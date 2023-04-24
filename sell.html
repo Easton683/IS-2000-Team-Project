@@ -1,0 +1,111 @@
+<!doctype html>
+
+<html lang="en">
+    <head class="dark-background" class="white-text">
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        
+        <!-- My Style Sheet -->
+        <link rel="stylesheet" href="css/styles.css">
+        
+        <title>Sell - Retro Stars LLC</title>
+    </head>
+
+    <header>   
+    <!-- Bootstrap Nav bar -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+        
+            <a class="navbar-brand" href="index.html"><img src="images/logo.png"></a>
+            
+            <!-- Hamburger menu icon -->
+            <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fas fa-bars fa1x"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+
+                <!-- Navbar links -->            
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="buy.html">Buy</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="sell.html">Sell</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+    <body class="dark-background" class="white-text">
+		<p>Retro Stars LLC will assist you with any and all consignment services you might need!</p>
+		
+		<table>
+		  <tr>
+			<th>Item Quality</th>
+		    <th>Game Title</th>
+		    <th>Console/Hardware</th> 
+		    <th>Collectible</th>
+		  </tr>
+		  <tr>
+		    <td>Like New</td>
+		    <td>$40+</td> 
+		    <td>$200+</td>
+			<td>$80+</td>
+		  </tr>
+		  <tr>
+		    <td>Slightly Used</td>
+		    <td>$30+</td> 
+		    <td>$175+</td>
+			<td>$65+</td>
+		  </tr>
+		  <tr>
+			 <td>Used</td>
+ 		    <td>$20+</td> 
+ 		    <td>$100+</td>
+ 			<td>$40+</td>
+		  </tr>
+		</table>
+		
+		<p>Our team of veteran experts and appraisers will evaluate the product you wish to sell on our site!</p>
+		
+		<p>In four easy steps, you can submit your item and we'll get back to you within 24 hours with a quote!</p>
+		<form enctype="multipart/form-data">
+			<p>Step 1: Select what type of item you would like to sell</p>
+		  <label for="select-option">Select an option:</label>
+		  <select id="select-option" name="select-option">
+		    <option value="option1">Game Title</option>
+		    <option value="option2">Console/Hardware</option>
+		    <option value="option3">Collectible</option>
+		  </select>
+		  <br><br>
+		  	<p>Step 2: Write a brief description of your item</p>
+		  <label for="text-box">Description:</label>
+		  <input type="text" id="text-box" name="text-box">
+		  <br><br>
+		  	<p>Step 3: Upload a photo of your item</p>
+		  <label for="photo-upload">Upload a photo:</label>
+		  <input type="file" id="photo-upload" name="photo-upload">
+		  <br><br>
+		  	<p>Step 4: Enter your contact information</p>
+		  <label for="text-box">Name:</label>
+		  <input type="text" id="text-box" name="text-box">
+		  <label for="text-box">Phone Number:</label>
+		  <input type="text" id="text-box" name="text-box">
+		  <label for="text-box">Email:</label>
+		  <input type="text" id="text-box" name="text-box">
+		  <br><br>
+		  <input type="submit" value="Submit">
+		</form>
+    </body>
+</html>

@@ -7,46 +7,89 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">        
+
         <!-- My Style Sheet -->
         <link rel="stylesheet" href="css/styles.css">
+
+        <!-- JQueery CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+
+        <!-- my Javascript -->
+        <script src="javascript/script.js"></script>
         
         <title>Home - Retro Stars LLC</title>
     </head>
 
-    <header>   
-    <!-- Bootstrap Nav bar -->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
-        
-            <a class="navbar-brand" href="index.html"><img src="images/logo.png"></a>
-            
-            <!-- Hamburger menu icon -->
-            <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"><i class="fas fa-bars fa1x"></span>
-            </button>
-            
-            <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-
-                <!-- Navbar links -->            
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="buy.html">Buy</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="sell.html">Sell</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About Us</a>
-                    </li>
-                </ul>
-            </div>
-
-        </nav>
-    </header>
+    
     <body class="dark-background" class="white-text">
+
+        <header>   
+            <!-- Bootstrap Nav bar -->
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+            
+                <a class="navbar-brand" href="index.html"><img src="images/logo.png"></a>
+                
+                <!-- Hamburger menu icon -->
+                <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><i class="fas fa-bars fa1x"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+    
+                    <!-- Navbar links -->            
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="buy.html">Buy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sell.html">Sell</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+    
+            </nav>
+        </header>
+
+        <div class="px-5 py-5 main text-white text-center">
+            <div id="welcome">
+                <h3>Welcome to Retro Stars LLC&nbsp;</h3>
+                <p>If you are looking to buy or sell videogames then you have come to the right place.</p>
+            </div>
+        </div>
+
+        <!-- footer section -->
+        <footer class="bg-dark text-center text-white">
+            <div class="container p-4 pb-0">
+                <!-- Social media -->
+                <section class="mb-4">
+                    <!-- Facebook -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/" role="button"><i class="bi bi-facebook"></i></a>
+                
+                    <!-- Twitter -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/" role="button"><i class="bi bi-twitter"></i></a>
+                </section>
+            </div>
+        
+            <!-- Made by -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.226);">
+                <p>Made By: 
+                    <a class="text-white" href="#">Cameron Hancock</a>, 
+                    <a class="text-white" href="#">Easton</a>, and
+                    <a class="text-white" href="#">Jacob</a>
+                </p> 
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>

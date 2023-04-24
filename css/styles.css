@@ -1,6 +1,21 @@
+body {
+    margin-top: 10%;
+    background-image: url('../images/starry-background.jpg');
+}
+
+.main {
+    margin-bottom: 40%;
+}
+
+footer {
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
+
 #stt-wrapper {
     position: fixed;
     z-index: 100;
     right: 10px;
     bottom: 5px;
-  }
+}

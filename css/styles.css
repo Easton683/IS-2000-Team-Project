@@ -60,7 +60,7 @@ body {
 }
 
 .menu li a:hover {
-    box-shadow: 0 -5ps 0ps #fff inset, 500px 0 0 rgba(255,255,255,0.03) inset;
+    box-shadow: 0 -5px 0px #fff inset, 500px 0 0 rgba(255,255,255,0.03) inset;
     padding: 35px 25px 45px 35px;
 }
 
@@ -169,4 +169,21 @@ footer {
 
 .products img:hover {
     transform: scale(1.25);
-} 
+}
+
+/*Animation code*/
+@keyframes opacity {
+    0% {opacity: 0;}
+    100% {opacity: 100;}
+}
+.image-animation {
+    animation-name: opacity;
+    animation-duration: 5s;
+}
+.image-animation img {
+    width: 300px;
+    height: auto;
+    border-style: solid;
+    border-width: large;
+    border-color: gold;
+}

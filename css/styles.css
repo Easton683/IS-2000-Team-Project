@@ -261,6 +261,7 @@ body.dark-background {
 
 main {
   padding: 20px;
+  text-align: center;
 }
 
 
@@ -311,7 +312,6 @@ form input[type="submit"] {
   margin-top: 20px;
 }
 
-
 select {
   background-color: white;
   border: 1px solid #ccc;
@@ -321,7 +321,15 @@ select {
 }
 
 #sell img {
-	width: 95%;
+	width: 99.97%;
 }
- 
+
+#jacob img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 10%;
+  height: 25%;
+  width: 25%;
+}
+
 	

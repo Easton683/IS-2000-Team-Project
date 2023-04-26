@@ -255,7 +255,7 @@ footer {
 
 body.dark-background {
   background-color: #333;
-  color: #fff;
+  color: black;
 }
 
 
@@ -277,7 +277,7 @@ th, td {
 
 th {
   background-color: #555;
-  color: #fff;
+  color: white;
 }
 
 
@@ -285,7 +285,7 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #ddd;
+  background-color: #637796;
   padding: 20px;
 }
 
@@ -302,7 +302,7 @@ form input[type="text"], form input[type="file"], form select {
 
 form input[type="submit"] {
   background-color: #555;
-  color: #fff;
+  color: black;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
@@ -313,7 +313,7 @@ form input[type="submit"] {
 
 
 select {
-  background-color: #fff;
+  background-color: white;
   border: 1px solid #ccc;
   border-radius: 5px;
   height: 40px;

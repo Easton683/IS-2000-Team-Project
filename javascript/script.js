@@ -8,3 +8,7 @@ $(document).ready(function() {
   function purchase() {
     alert("Thank you for your purchase!");
   }
+  
+function purchase() {
+	alert("Thaank you! Our team will reach out to you with their appraisal within the next 24 hours!")
+}

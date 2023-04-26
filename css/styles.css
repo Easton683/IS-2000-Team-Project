@@ -120,6 +120,20 @@ body {
         box-shadow: -20px 0 40px rgba(0,0,0,0.3s);
     }
 
+    /*homepage grid*/
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 10px;
+      }
+      .grid-item {
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 20px;
+        font-size: 200%;
+        text-align: center;
+      }
+
+
     /*Mobile Device Media Query*/
     @media screen and (max-width: 768px){
         .hamburger, .toggle-menu {
@@ -157,6 +171,18 @@ body {
         .lead img {
             display: none;
         }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto;
+            padding: 10px;
+          }
+          .grid-item {
+            border: 1px solid rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            font-size: 150%;
+            text-align: center;
+          }
     }
 
     /*Tablet Media Query*/

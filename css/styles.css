@@ -319,4 +319,9 @@ select {
   height: 40px;
   font-size: 1rem;
 }
+
+#sell img {
+	width: 95%;
+}
+ 
 	

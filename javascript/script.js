@@ -9,6 +9,6 @@ $(document).ready(function() {
     alert("Thank you for your purchase!");
   }
   
-function submit() {
+function ssubmit() {
 	alert("Thank you! Our team will reach out to you with their appraisal within the next 24 hours!");
 }

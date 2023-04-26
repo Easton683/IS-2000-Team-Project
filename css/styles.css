@@ -200,3 +200,31 @@ footer {
     border-width: large;
     border-color: gold;
 }
+
+/* Cameron's page rules */
+@media screen and (min-width: 768px){
+    .cameron img {
+        width: 50%;
+        height: auto;
+    }
+    .cameron ul, .cameron p {
+        display: block;
+        float: left;
+        padding: 4%;
+    }
+    .cameron {
+        font-size: small;
+    }
+}
+
+@media screen and (min-width: 965px){
+    .cameron {
+        font-size: medium;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .cameron {
+        font-size: x-large;
+    }
+}

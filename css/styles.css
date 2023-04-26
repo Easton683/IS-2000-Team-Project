@@ -149,8 +149,10 @@ body {
             box-shadow: 0 1px 0 rgba(255,255,255,0.1) inset;
         }
         iframe {
-            width: 50%;
+            width: 10%;
             height: auto;
+            margin: 0 auto;
+            display: block;
         }
         .lead img {
             display: none;
@@ -160,8 +162,10 @@ body {
     /*Tablet Media Query*/
     @media screen and (max-width: 1600px){
         iframe {
-            width: 75%;
+            width: 25%;
             height: auto;
+            margin: 0 auto;
+            display: block;
         }
     }
 
@@ -185,6 +189,20 @@ footer {
 
 .products img:hover {
     transform: scale(1.25);
+}
+
+.content {
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+  }
+
+  iframe {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
 }
 
 /*Animation code*/

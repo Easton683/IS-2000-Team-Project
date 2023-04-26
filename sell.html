@@ -7,10 +7,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">        
+
         <!-- My Style Sheet -->
         <link rel="stylesheet" href="css/styles.css">
+
+        <!-- JQueery CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+
+        <!-- my Javascript -->
+        <script src="javascript/script.js"></script>
 		
 		<!-- Font Family -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -77,7 +85,7 @@
 			<p>Our team of veteran experts and appraisers will evaluate the product you wish to sell on our site!</p>
 			
 			<p>In four easy steps, you can submit your item and we'll get back to you within 24 hours with a quote!</p>
-			<form enctype="multipart/form-data">
+			<form enctype="multipart/form-data" onsubmit="submit()">
 					<p>Step 1: Select what type of item you would like to sell</p>
 				<label for="select-option">Select an option:</label>
 				<select id="select-option" name="select-option">
@@ -102,7 +110,7 @@
 				<label for="text-box">Email:</label>
 				<input type="text" id="text-box" name="text-box">
 				<br><br>
-				<input type="submit" value="Submit" onclick="submit">
+				<input type="submit" value="Submit">
 			</form>
 		</main>
     </body>

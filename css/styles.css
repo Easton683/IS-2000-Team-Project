@@ -152,6 +152,9 @@ body {
             width: 50%;
             height: auto;
         }
+        .lead img {
+            display: none;
+        }
     }
 
     /*Tablet Media Query*/
